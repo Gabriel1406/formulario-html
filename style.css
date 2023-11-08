@@ -1,0 +1,17 @@
+button[type="submit"],
+button[type="button"] {
+    background-color: #34cc8b;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px #888;
+    transition: all .3s;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    background-color: #29a06d;
+    transition: all .3s;
+}
